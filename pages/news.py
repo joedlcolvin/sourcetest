@@ -14,7 +14,7 @@ footer = footerfile.read()
 newsitems = json.loads(newsitemsfile.read())
 
 news = header
-news = string.replace(news, '{{TITEL}}', 'News')
+news = string.replace(news, '{{TITLE}}', 'News')
 news = string.replace(news, '{{PAGECSS}}', 'news.css')
 
 for name, date in newsitems.items():
