@@ -64,7 +64,7 @@ index += glue (
 		"</div>",
 		"<div id='rightbox'>",
 			"<h1>BOOK ARTISTS HERE</h1>",
-			"<iframe src='https://open.spotify.com/embed?uri=spotify:user:jcgrasshopper:playlist:3DHWCjE74sBVQOqT7IIbTY' width='300' height='380' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>",
+			"<iframe id='spotify' src='https://open.spotify.com/embed?uri=spotify:user:jcgrasshopper:playlist:3DHWCjE74sBVQOqT7IIbTY' width='300' height='380' frameborder='0' allowtransparency='true' allow='encrypted-media'></iframe>",
 		"</div>",
 	"</div>",
 "</div>")
