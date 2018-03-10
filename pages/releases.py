@@ -29,7 +29,7 @@ for release in releaseitems:
 			releases += artist + ","
 
 		releases += glue(
-				'" width="560" height="315" src="' + release['link'] + '" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>',
+				'" width="560" height="315" src="' + release['link'] + '" frameborder="0" style="flex-grow:' + release['tile size'] + '" gesture="media" allow="encrypted-media" allowfullscreen></iframe>',
 				'</div>',)
 				
 releases += glue(

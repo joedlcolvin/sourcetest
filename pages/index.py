@@ -31,21 +31,20 @@ for image, caption in carousel.items():
 		"<div class='mySlides fade'>",
 			"<div class='numbertext'>" + str(i) + " / " + str(len(carousel)) + "</div>",
 			"<img class='image' src='static/images/carousel/" + image + "' %} style='width:100%; '>",
-			"<div class='text'><p>" + caption + "</p></div>",
+			"<div id='caption'><p>" + caption + "</p></div>",
 		"</div>")
 
 index += glue (
 		"<a class='prev' onclick='plusSlides(-1)'>&#10094;</a>",
 		"<a class='next' onclick='plusSlides(1)'>&#10095;</a>",
-	"</div>",
-	"<br>",
-	"<!-- The dots/circles -->",
-	"<div style='text-align:center'>")
+		"<div id='dots-container' style='text-align:center'>")
 
 for x in range(0,len(carousel)):
-	index += "<span class='dot' onclick='currentSlide(" + str(x+1) + ")'></span>"
+	index += 	"<span class='dot' onclick='currentSlide(" + str(x+1) + ")'></span>"
 
-index += "</div>"
+index += glue (
+		"</div>",
+	"</div>")
 
 index += glue (
 	"<div id='flexcontent'>",

@@ -24,8 +24,10 @@ for x in range(1,10):
 	for name, data in artistsdata.items():
 		artists += glue(
 			"<div class='artists' id='" + name + "' style='background-color:" + data["Tile Colour"] + "'>",
-				"<h2 class='artistname'>" + name + "</h2>",
-				"<img class='artistpic' src='/static/images/artists/" + data["Photo"] + "' alt='" + data["Photo"] + " height ='42' width='42'>",
+				"<div class='artistheading'>",
+					"<h2 class='artistname'>" + name + "</h2>",
+					"<img class='artistpic' src='/static/images/artists/" + data["Photo"] + "' alt='" + data["Photo"] + " height ='42' width='42'>",
+				"</div>",
 				"<p class='shortbio'>" + data["Short Bio"] + "</p>",
 			"</div>")
 

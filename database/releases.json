@@ -4,7 +4,74 @@
 		"type"		:	"video",
 		"artists"	:	["Sophie Elizabeth"],
 		"releasedate"	:	"13/12/2017",
-		"link"		:	"https://www.youtube.com/embed/P74F-R_TBu8"
+		"link"		:	"https://www.youtube.com/embed/P74F-R_TBu8",
+		"tile size"	:	"2"
+	},
+	{
+		"title"		:	"Picture Show Boys",
+		"type"		:	"video",
+		"artists"	:	["Sophie Elizabeth"],
+		"releasedate"	:	"13/12/2017",
+		"link"		:	"https://www.youtube.com/embed/P74F-R_TBu8",
+		"tile size"	:	"3"
+	},
+	{
+		"title"		:	"Picture Show Boys",
+		"type"		:	"video",
+		"artists"	:	["Sophie Elizabeth"],
+		"releasedate"	:	"13/12/2017",
+		"link"		:	"https://www.youtube.com/embed/P74F-R_TBu8",
+		"tile size"	:	"1"
+	},
+	{
+		"title"		:	"Picture Show Boys",
+		"type"		:	"video",
+		"artists"	:	["Sophie Elizabeth"],
+		"releasedate"	:	"13/12/2017",
+		"link"		:	"https://www.youtube.com/embed/P74F-R_TBu8",
+		"tile size"	:	"2"
+	},
+	{
+		"title"		:	"The Bugle",
+		"type"		:	"track",
+		"artists"	:	["The Bugle Podcast"],
+		"releasedate"	:	"11/12/2017",
+		"link"		:	"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc"
+	},
+	{
+		"title"		:	"The Bugle",
+		"type"		:	"track",
+		"artists"	:	["The Bugle Podcast"],
+		"releasedate"	:	"11/12/2017",
+		"link"		:	"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc"
+	},
+	{
+		"title"		:	"The Bugle",
+		"type"		:	"track",
+		"artists"	:	["The Bugle Podcast"],
+		"releasedate"	:	"11/12/2017",
+		"link"		:	"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc"
+	},
+	{
+		"title"		:	"The Bugle",
+		"type"		:	"track",
+		"artists"	:	["The Bugle Podcast"],
+		"releasedate"	:	"11/12/2017",
+		"link"		:	"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc"
+	},
+	{
+		"title"		:	"The Bugle",
+		"type"		:	"track",
+		"artists"	:	["The Bugle Podcast"],
+		"releasedate"	:	"11/12/2017",
+		"link"		:	"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc"
+	},
+	{
+		"title"		:	"The Bugle",
+		"type"		:	"track",
+		"artists"	:	["The Bugle Podcast"],
+		"releasedate"	:	"11/12/2017",
+		"link"		:	"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/34019569&amp;color=0066cc"
 	},
 	{
 		"title"		:	"The Bugle",
