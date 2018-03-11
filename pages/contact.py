@@ -14,6 +14,7 @@ footer = footerfile.read()
 contact = header
 contact = string.replace(contact, '{{TITLE}}', 'Contact')
 contact = string.replace(contact, '{{PAGECSS}}', 'contact.css')
+contact = string.replace(contact, '{{PAGEJS}}', 'contact.js')
 
 contact += glue (
 '<div class="main">',

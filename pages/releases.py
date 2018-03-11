@@ -13,6 +13,7 @@ releaseitems = json.loads(open('/home/koan/koansource/database/releases.json', '
 releases = header
 releases = string.replace(releases, '{{TITLE}}', 'Releases')
 releases = string.replace(releases, '{{PAGECSS}}', 'releases.css')
+releases = string.replace(releases, '{{PAGEJS}}', 'releases.js')
 
 releases += glue(
 	'<div class="main">',

@@ -14,6 +14,7 @@ footer = footerfile.read()
 about = header
 about = string.replace(about, '{{TITLE}}', 'About')
 about = string.replace(about, '{{PAGECSS}}', 'about.css')
+about = string.replace(about, '{{PAGEJS}}', 'about.js')
 
 about += glue (
 '<div class="main">',

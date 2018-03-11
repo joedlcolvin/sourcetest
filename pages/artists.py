@@ -16,6 +16,7 @@ artistsdata = json.loads(artistsdatafile.read())
 artists = header
 artists = string.replace(artists, '{{TITLE}}', 'Artists')
 artists = string.replace(artists, '{{PAGECSS}}', 'artists.css')
+artists = string.replace(artists, '{{PAGEJS}}', 'artists.js')
 
 artists += glue(
 	"<div id='main'>",

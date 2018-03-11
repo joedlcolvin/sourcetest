@@ -19,6 +19,7 @@ carousel = json.loads(carouselfile.read())
 index = header
 index = string.replace(index, '{{TITLE}}', 'Index')
 index = string.replace(index, '{{PAGECSS}}', 'index.css')
+index = string.replace(index, '{{PAGEJS}}', 'index.js')
 
 index += glue (
 "<div class='main'>",
