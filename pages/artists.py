@@ -19,19 +19,32 @@ artists = string.replace(artists, '{{PAGECSS}}', 'artists.css')
 
 artists += glue(
 	"<div id='main'>",
-		"<div id='artistflex'>")
-for x in range(1,10):
-	for name, data in artistsdata.items():
-		artists += glue(
-			"<div class='artists' id='" + name + "' style='background-color:" + data["Tile Colour"] + "'>",
-				"<div class='artistheading'>",
-					"<h2 class='artistname'>" + name + "</h2>",
+		"<div id='artist-display-container'>")
+for name, data in artistsdata.items():
+	artists += glue(
+			"<div class='artist-display' id='ad" + data["OrderNumber"] + "'>",
+					"<h1 class='artistname'>" + name + "</h1>",
 					"<img class='artistpic' src='/static/images/artists/" + data["Photo"] + "' alt='" + data["Photo"] + " height ='42' width='42'>",
-				"</div>",
-				"<p class='shortbio'>" + data["Short Bio"] + "</p>",
+				"<p class='longbio'>" + data["Long Bio"] + "</p>",
 			"</div>")
 
-artists += "</div></div>"
+artists += glue("</div>",
+		"<div id='list-container'>",
+			"<div id='leftbutton'>",
+			"</div>",
+			"<div id='rightbutton'>",
+			"</div>",
+			"<div id='artist-list>")
+for name, data in artistsdata.items():
+	artists += glue(
+				"<div id='a" + data["OrderNumber"] + "' class='artist'>",
+					"<h2>" + name + "</h2>",
+					"<p>" + data["Short Bio"] + "</p>",
+				"</div>")
+
+artists += glue(	"</div>",
+		"</div>",
+	"</div>")
 
 artists += footer
 

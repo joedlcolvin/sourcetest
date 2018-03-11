@@ -17,38 +17,10 @@ releases = string.replace(releases, '{{PAGECSS}}', 'releases.css')
 releases += glue(
 	'<div class="main">',
 		'<div id="flexcontent">',
-			'<div id="leftbox">')
-
-for release in releaseitems:
-	if release['type'] == "video":
-		releases += glue(
-				'<div class="video-release-box">',
-					'<iframe class="video" title="' + release['title'] + '" data-releasedate="' + release['releasedate'] + '" data-artists="') 
-
-		for artist in release['artists']:
-			releases += artist + ","
-
-		releases += glue(
-				'" width="560" height="315" src="' + release['link'] + '" frameborder="0" style="flex-grow:' + release['tile size'] + '" gesture="media" allow="encrypted-media" allowfullscreen></iframe>',
-				'</div>',)
+			'<div id="leftbox">',
 				
-releases += glue(
 			'</div>',
-			'<div id="rightbox">')
-
-
-for release in releaseitems:
-	if release['type'] == "track":
-		releases += glue(
-				'<iframe title="' + release['title'] + '" data-releasedate="' + release['releasedate'] + '" data-artists="') 
-
-		for artist in release['artists']:
-			releases += artist + ","
-
-		releases += glue(
-				'" width="100%" height="166" src="' + release['link'] + '" frameborder="no" scrolling="no"></iframe>')
-
-releases += glue(
+			'<div id="rightbox">',
 			'</div>',
 		'</div>',
 	'</div>')
