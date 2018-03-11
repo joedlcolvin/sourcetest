@@ -8,8 +8,7 @@
 		"SoundCloud Link" : "",
 		"BandCamp Link" : "",
 		"Apple Music Link" : "",
-		"Tile Colour" : "#912d33",
-		"Tile Size" : "1"
+		"Order Number" : "1"
 	},
 
 	"Sophie-Elizabeth2" : {
@@ -21,8 +20,7 @@
 		"SoundCloud Link" : "",
 		"BandCamp Link" : "",
 		"Apple Music Link" : "",
-		"Tile Colour" : "#F4AA1D",
-		"Tile Size" : "2"
+		"Order Number" : "2"
 	},
 
 	"Sophie-Elizabeth3" : {
@@ -34,8 +32,7 @@
 		"SoundCloud Link" : "",
 		"BandCamp Link" : "",
 		"Apple Music Link" : "",
-		"Tile Colour" : "#F50110",
-		"Tile Size" : "1"
+		"Order Number" : "3"
 	},
 
 	"Sophie-Elizabeth4" : {
@@ -47,8 +44,7 @@
 		"SoundCloud Link" : "",
 		"BandCamp Link" : "",
 		"Apple Music Link" : "",
-		"Tile Colour" : "#7374ae",
-		"Tile Size" : "3"
+		"Order Number" : "4"
 	},
 
 	"Sophie-Elizabeth5" : {
@@ -60,7 +56,6 @@
 		"SoundCloud Link" : "",
 		"BandCamp Link" : "",
 		"Apple Music Link" : "",
-		"Tile Colour" : "#FFFF00",
-		"Tile Size" : "2"
+		"Order Number" : "5"
 	}
 }
