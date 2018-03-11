@@ -22,10 +22,10 @@ artists += glue(
 		"<div id='artist-display-container'>")
 for name, data in artistsdata.items():
 	artists += glue(
-			"<div class='artist-display' id='ad" + data["OrderNumber"] + "'>",
+			"<div class='artist-display' id='ad" + data["Order Number"] + "'>",
 					"<h1 class='artistname'>" + name + "</h1>",
 					"<img class='artistpic' src='/static/images/artists/" + data["Photo"] + "' alt='" + data["Photo"] + " height ='42' width='42'>",
-				"<p class='longbio'>" + data["Long Bio"] + "</p>",
+				"<p class='longbio'>" + data["Full Bio"] + "</p>",
 			"</div>")
 
 artists += glue("</div>",
@@ -37,7 +37,7 @@ artists += glue("</div>",
 			"<div id='artist-list>")
 for name, data in artistsdata.items():
 	artists += glue(
-				"<div id='a" + data["OrderNumber"] + "' class='artist'>",
+				"<div id='a" + data["Order Number"] + "' class='artist'>",
 					"<h2>" + name + "</h2>",
 					"<p>" + data["Short Bio"] + "</p>",
 				"</div>")
